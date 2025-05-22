@@ -21,3 +21,9 @@ def decrypt(ciphertext):
 def usopp_cipher(flag, secret_seed):
     ciphertext = encrypt(flag, secret_seed)
     return ciphertext
+
+
+
+if __name__ == "__main__":
+    decrypt('a77742694e1d538c1c6d3c30d4c4df294c6c02379a1b138a411f26ec12fbc58cee1b028c39')
+

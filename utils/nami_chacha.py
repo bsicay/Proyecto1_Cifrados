@@ -25,3 +25,8 @@ def chacha20_decrypt(ciphertext, user_id):
 def nami_cipher(plaintext, user_id):
     ciphertext = chacha20_encrypt(plaintext, user_id)
     return ciphertext
+
+
+
+if __name__ == "__main__":
+    print(chacha20_decrypt( bytes.fromhex('08f08738905e1b0a058052a7499a86a36945d63c73c2994195f214a335fefc160b1266bc27'), '21757'))

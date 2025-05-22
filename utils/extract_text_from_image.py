@@ -19,7 +19,7 @@ def extraer_texto_metadata(imagen_path):
     
 # Uso del código para descifrar la imagen
 # Ejemplo de uso
-image_path = "Proyecto1_Cifrados/extracted_poneglyph/poneglyph-2.jpeg"
+image_path = "/Users/brand/Documents/UVG/Proyecto1_Cifrados/extracted_poneglyph/poneglyph-4.jpeg"
 student_id = input("Introduce tu carné para descifrar el mensaje: ")
 texto_cifrado = extraer_texto_metadata(image_path)
 decrypted_text = xor_cipher(texto_cifrado, student_id)
